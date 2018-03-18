@@ -43,3 +43,47 @@ class MakeFood:
         mouse_click(Coordinates.food.roe)
         time.sleep(0.1)
         self.fold_mat()
+
+class BuyFood:
+    def rice():
+        mouse_click(Coordinates.phone_pos)
+        mouse_click(Coordinates.phone.rice_pos)
+        mouse_click(Coordinates.phone.rice.rice)
+        mouse_click(Coordinates.phone.delivery.normal)
+    
+    def sake():
+        mouse_click(Coordinates.phone_pos)
+        mouse_click(Coordinates.phone.sake_pos)
+        mouse_click(Coordinates.phone.sake.sake)
+        mouse_click(Coordinates.phone.delivery.normal)
+    
+    def shrimp():
+        mouse_click(Coordinates.phone_pos)
+        mouse_click(Coordinates.phone.toppings_pos)
+        mouse_click(Coordinates.phone.toppings.topping11)
+        mouse_click(Coordinates.phone.delivery.normal)
+    
+    def unagi():
+        mouse_click(Coordinates.phone_pos)
+        mouse_click(Coordinates.phone.toppings_pos)
+        mouse_click(Coordinates.phone.toppings.topping12)
+        mouse_click(Coordinates.phone.delivery.normal)
+    
+    def nori():    # nori
+        mouse_click(Coordinates.phone_pos)
+        mouse_click(Coordinates.phone.toppings_pos)
+        mouse_click(Coordinates.phone.toppings.topping21)
+        mouse_click(Coordinates.phone.delivery.normal)
+    
+    def fish_egg():     # fish egg
+        mouse_click(Coordinates.phone_pos)
+        mouse_click(Coordinates.phone.toppings_pos)
+        mouse_click(Coordinates.phone.toppings.topping22)
+        mouse_click(Coordinates.phone.delivery.normal)
+    
+    def salmon():     # salmon
+        mouse_click(Coordinates.phone_pos)
+        mouse_click(Coordinates.phone.toppings_pos)
+        mouse_click(Coordinates.phone.toppings.topping31)
+        mouse_click(Coordinates.phone.delivery.normal)
+    

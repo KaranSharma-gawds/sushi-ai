@@ -23,7 +23,7 @@ class Coordinates:
             topping11 = (490, 215)
             topping12 = (570, 215)
             topping21 = (490, 275)
-            topping12 = (570, 275)
+            topping22 = (570, 275)
             topping31 = (490, 330)
             back = (555, 335)
             cancel = (595, 335)
@@ -35,3 +35,8 @@ class Coordinates:
             sake = (545, 370)
             cancel = (581, 333)
             back = (500, 329)
+        class delivery:
+            normal = (500, 295)
+            express = (575, 295)
+            back = (480, 330)
+            cancel = (580, 330)
